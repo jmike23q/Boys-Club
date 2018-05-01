@@ -99,18 +99,18 @@ lineGraph.transition()
 	.delay(50)
 	.duration(600)
 	.attr("transform", "translate(0,0)")
-	.attr("fill-opacity", 1);  
+	.attr("fill-opacity", 1);  	
 
-var image = svg.append("svg:image")
-    .attr("xlink:href", "https://upload.wikimedia.org/wikipedia/commons/9/9f/Moma-1-logo.jpg")
-    .attr("x", 100)
-    .attr("y", 565)
+var image4 = svg.append("svg:image")
+    .attr("xlink:href", "https://static1.squarespace.com/static/57d83ff1d482e91ad11d5834/581cd272c534a514915fa157/581cd285b3db2bd6d988b7fb/1481304163729/Moma+Logo.png")
+    .attr("x", 725)
+    .attr("y", 170)
     .attr("width", 64)
     .attr("height", 64)
-    .style("opacity", 0.8)
+    .style("opacity", 0.5)
     .attr("fill-opacity", 0);
 
-image.transition()
+image4.transition()
 	.delay(200)
 	.transition()
 	.ease(d3.easeQuadInOut)
@@ -121,8 +121,7 @@ image.transition()
 	.ease(d3.easeSin)
 	.delay(50)
 	.duration(600)
-	.attr("fill-opacity", 1);	
-
+	.attr("fill-opacity", 1);
 
 var myText =  svg.append("text")
    .attr("y", 80)
@@ -630,6 +629,27 @@ event4.transition()
 	.duration(600)
 	.attr("fill-opacity", 1);
 
+var image = svg.append("svg:image")
+    .attr("xlink:href", "https://upload.wikimedia.org/wikipedia/commons/9/9f/Moma-1-logo.jpg")
+    .attr("x", 100)
+    .attr("y", 565)
+    .attr("width", 64)
+    .attr("height", 64)
+    .style("opacity", 0.8)
+    .attr("fill-opacity", 0);
+
+image.transition()
+	.delay(2000)
+	.transition()
+	.ease(d3.easeQuadInOut)
+	.delay(50)
+	.duration(400)
+	.attr("fill-opacity", .2)
+	.transition()
+	.ease(d3.easeSin)
+	.delay(50)
+	.duration(600)
+	.attr("fill-opacity", 1);	
 
 var image1 = svg.append("svg:image")
     .attr("xlink:href", "https://timedotcom.files.wordpress.com/2018/04/time-100-judy-chicago.jpg?quality=85&zoom=2")
@@ -690,28 +710,6 @@ var image3 = svg.append("svg:image")
 
 image3.transition()
 	.delay(2300)
-	.transition()
-	.ease(d3.easeQuadInOut)
-	.delay(50)
-	.duration(400)
-	.attr("fill-opacity", .2)
-	.transition()
-	.ease(d3.easeSin)
-	.delay(50)
-	.duration(600)
-	.attr("fill-opacity", 1);
-
-var image4 = svg.append("svg:image")
-    .attr("xlink:href", "https://static1.squarespace.com/static/57d83ff1d482e91ad11d5834/581cd272c534a514915fa157/581cd285b3db2bd6d988b7fb/1481304163729/Moma+Logo.png")
-    .attr("x", 725)
-    .attr("y", 170)
-    .attr("width", 64)
-    .attr("height", 64)
-    .style("opacity", 0.5)
-    .attr("fill-opacity", 0);
-
-image4.transition()
-	.delay(2400)
 	.transition()
 	.ease(d3.easeQuadInOut)
 	.delay(50)
