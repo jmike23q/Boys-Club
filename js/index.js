@@ -102,7 +102,7 @@ lineGraph.transition()
 	.attr("fill-opacity", 1);  	
 
 var image4 = svg.append("svg:image")
-    .attr("xlink:href", "https://i.pinimg.com/736x/39/22/43/392243e580c62a500f92884944fdfabb--building-logo-moma-logo.jpg")
+    .attr("xlink:href", "https://static1.squarespace.com/static/57d83ff1d482e91ad11d5834/581cd272c534a514915fa157/581cd285b3db2bd6d988b7fb/1481304163729/Moma+Logo.png")
     .attr("x", 725)
     .attr("y", 170)
     .attr("width", 64)
