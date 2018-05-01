@@ -111,7 +111,7 @@ var image4 = svg.append("svg:image")
     .attr("fill-opacity", 0);
 
 image4.transition()
-	.delay(200)
+	.delay(1000)
 	.transition()
 	.ease(d3.easeQuadInOut)
 	.delay(50)
