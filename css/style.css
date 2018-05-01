@@ -73,3 +73,12 @@
   pointer-events: none;
 }
 
+.video {
+    margin-top: 10em;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
